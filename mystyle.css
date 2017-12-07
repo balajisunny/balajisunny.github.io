@@ -1,0 +1,67 @@
+ul {
+   list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 45px;
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+    background-color: #003399;
+}
+
+li a {
+    color: #CCFFCC;
+    padding: 8px 16px;
+    text-decoration: none;
+    text-align: center;
+    border-bottom: 1px solid #555;
+    display: inline;
+}
+
+/* Change the link color on hover */
+li a:hover {
+    background-color: #0099CC;
+    color: white;
+}
+
+li:last-child {
+    border-bottom: none;
+}
+
+.active {
+    background-color: #66CCFF;
+}
+
+.activeLink {
+    color: #003399;
+}
+
+li {
+    color: #000000;
+    display: inline;
+}
+
+.pageBackground {
+    background-color: #6795e0;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.paragraphTitle {
+    text-align : center;
+    font-size: 24px;
+    color: #003399;
+}
+
+.paragraphBody {
+    text-align : left;
+    font-size: 18px;
+    color: #003399;
+}
