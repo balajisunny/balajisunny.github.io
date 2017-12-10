@@ -1,4 +1,4 @@
-ul {
+.navigationList {
    list-style-type: none;
     margin: 0;
     padding: 0;
@@ -8,6 +8,12 @@ ul {
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
     background-color: #003399;
 }
+
+.navigationListItem {
+    color: #000000;
+    display: inline;
+}
+
 
 li a {
     color: #CCFFCC;
@@ -28,7 +34,7 @@ li:last-child {
     border-bottom: none;
 }
 
-.active {
+.activeListItem {
     background-color: #66CCFF;
 }
 
@@ -36,10 +42,6 @@ li:last-child {
     color: #003399;
 }
 
-li {
-    color: #000000;
-    display: inline;
-}
 
 .pageBackground {
     background-color: #6795e0;
