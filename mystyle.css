@@ -7,6 +7,7 @@
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
     /*background-color: #003399;*/
+    text-align: center;
 }
 
 .navigationListItem {
@@ -16,9 +17,9 @@
 
 
 .navigationListItem a {
-    color: #CCFFCC;
+    color: #000000;
     padding: 8px 16px;
-    /*text-decoration: underline;*/
+    text-decoration: none;
     text-align: center;
     border-bottom: 1px solid #555;
     display: inline;
@@ -26,8 +27,8 @@
 
 /* Change the link color on hover */
 .navigationListItem a:hover {
-    background-color: #0099CC;
-    color: white;
+    /*background-color: #0099CC;*/
+    color: #0099CC;
 }
 
 
