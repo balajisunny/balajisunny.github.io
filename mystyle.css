@@ -98,6 +98,13 @@ iframe {
     font-family: comic sans ms;
 }
 
+.tableCellTitle {
+    font-size: 20px; 
+    color: #114488;
+    font-family: comic sans ms;
+    font-weight: bold;
+}
+
 li {
     font-size: 18px; 
     color: #003399;
