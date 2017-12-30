@@ -23,6 +23,7 @@
     text-align: center;
     border-bottom: 1px solid #555;
     display: inline;
+    font-family: comic sans ms;
 }
 
 /* Change the link color on hover */
@@ -45,6 +46,7 @@
     text-align: center;
     /*border-bottom: 1px solid #555;*/
     display: inline;
+    font-family: comic sans ms;
 }
 
 .activeListItem:last-child {
