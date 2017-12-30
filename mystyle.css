@@ -6,7 +6,7 @@
     height: 45px;
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
-    background-color: #003399;
+    /*background-color: #003399;*/
 }
 
 .navigationListItem {
@@ -18,7 +18,7 @@
 .navigationListItem a {
     color: #CCFFCC;
     padding: 8px 16px;
-    text-decoration: underline;
+    /*text-decoration: underline;*/
     text-align: center;
     border-bottom: 1px solid #555;
     display: inline;
@@ -58,7 +58,7 @@
 }
 
 .pageBackground {
-    background-image: url('pictures/background.jpg');
+    /*background-image: url('pictures/background.jpg');*/
     
     width: 100%;
     height: 100%;
