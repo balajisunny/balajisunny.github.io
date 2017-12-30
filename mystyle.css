@@ -8,6 +8,7 @@
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
     /*background-color: #4abcce;*/
     text-align: center;
+    border-bottom: 1px solid #555;
 }
 
 .navigationListItem {
