@@ -6,7 +6,7 @@
     height: 45px;
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
-    /*background-color: #003399;*/
+    background-color: #FFFFFF;
     text-align: center;
 }
 
@@ -87,21 +87,25 @@ iframe {
     font-size: 18px; 
     color: #003399;
     text-align: justify;
+    font-family: comic sans ms;
 }
 
 .paragraphCopyright {
-    font-size: 14px; 
-    color: #003399;
+    font-size: 18px; 
+    color: #114488;
     text-align: center;
     width: 100%;
+    font-family: comic sans ms;
 }
 
 li {
     font-size: 18px; 
     color: #003399;
+    font-family: comic sans ms;
 }
 
 td {
-    font-size: 14px; 
-    color: #003399;
+    font-size: 18px; 
+    color: #114488;
+    font-family: comic sans ms;
 }
