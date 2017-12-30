@@ -6,7 +6,7 @@
     height: 45px;
     position: fixed; /* Make it stick, even on scroll */
     overflow: auto; /* Enable scrolling if the sidenav has too much content */
-    background-color: #FFFFFF;
+    /*background-color: #4abcce;*/
     text-align: center;
 }
 
@@ -68,6 +68,7 @@
     height: 100%;
     margin: 0;
     padding: 0;
+    /*background-color: #4abcce;*/
 }
 
 iframe {
