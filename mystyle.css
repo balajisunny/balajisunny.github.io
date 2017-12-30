@@ -74,7 +74,8 @@ iframe {
 
 .paragraphTitle {
     text-align : center;
-    font-size: 24px;
+    font-size: 32px;
+    font-family: chalkduster;
     color: #003399;
 }
 
