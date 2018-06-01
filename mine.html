@@ -1,0 +1,92 @@
+<html>
+<head>
+<script type = "text/javascript" src = "processing.js"></script>
+</head>
+<body>
+<script type = "text/processing">
+
+PImage back;
+PImage face;
+PImage curry;
+PImage shootingcurry;
+PImage india;
+int count = 0;int y=30;int Vy = 0;
+int x = 0; int vx = 0;
+int by = 5; int vby = 0; int bx = 600;
+int jx = 500; int jy = 0; int vjx = 0;
+int shoot = 0; int nx = 100; int my = 0; int vmx = 0;
+int gamestate = 0; int pakistan1;int pakistanfox;
+
+void setup(){
+  size(850,600);
+  back  = loadImage("back.jpg");
+  face =  loadImage("tunak.png");
+  curry = loadImage("curry.png");
+  shootingcurry = loadImage("shootingcurry.png");
+  india = loadImage("india.png");
+}
+
+
+void draw(){
+ if (gamestate==0){
+  image(back,count, 0);
+  image(back ,width + count,0);
+  count--;
+  }
+if (count == -850){
+ count = 0;
+}
+  image(face,0,y);
+  image(curry,bx,by);
+  
+  
+  if (count%2 == 0){
+  Vy += 1;
+  
+  if(by>490){
+    vby-=1;
+  }
+  
+  if (by < 10){
+    vby +=1;
+  }
+  }
+  y = y + Vy;
+  by = by+ vby;
+  if (y<-50 || y>640){
+    gamestate = 1;
+  
+  if (gamestate == 1){
+    background(0,0,0);
+    fill(255, 0, 148);
+    rect(125,250,540,70,20);
+    fill(255, 255, 255);
+    textSize(50);
+    text("Restart BOI !!!",200,300);
+    text("You lose! Please play again!",100,50);
+    if (mouseX > 125 && mouseX < 645 && mouseY > 250 && mouseY < 320 ){
+      fill(255, 0, 148);
+      rect(125,250,540,70,20);
+      fill(255, 0, 148);
+     
+   
+    if (mousePressed){
+      gamestate = 0;
+      y = 50;
+    }
+  }
+  }
+  }
+} 
+
+
+void mousePressed(){
+  Vy = -10;
+}
+
+
+
+</script>
+<canvas id = "sketch" style = "border : 1px solid black;"></canvas>
+</body>
+</html>
